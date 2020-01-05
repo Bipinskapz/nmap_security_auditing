@@ -1,42 +1,37 @@
 
 # OFFICIAL WEBSITE FOR THE BOOK
-=====================================
 
 	[nmap-cookbook.com]
 
 
 # NMAP FROM SOURCE
-----------------------------------
 
    1. apt-get install svn
    2. svn co --username guest https://svn.nmap.org/nmap/
 
   
 ##	Requirements
-	=====================
 
 	* gcc
 	* openssl
 	* make
-
    3. cd to <nmap_folder>
    4. ./configure
    5. make or make install
 
-###                          NOTE:
+                             NOTE:
 			     -------------
 				- Skip the installation of Ndiff by using 	--without-ndiff
 				- Skip the installation of Zenmap by using 	--without-zenmap
 				- Skip the installation of Nping by using 	--without-nping 
 
-NMAP P R E -- C O M P I L E D  P A C K A G E S
-===========================================================
+NMAP P R E  C O M P I L E D  P A C K A G E S
 
 	[http://nmap.org/download.html]
 
 
 
-###  Helper Website
+###     Helper Website
      =======================================
 
 	[http://nmap.org/book/man-port-scanning-techniques.html]
@@ -50,12 +45,13 @@ NMAP P R E -- C O M P I L E D  P A C K A G E S
 		* Aggressive Scan
 
 		        +++++++++++++++++++++++++
-                        +  nmap -sA <host_name> +                  ** Gives more info but more detectable by the target **
+                         nmap -sA <host_name>                    ** Gives more info but more detectable by the target **
 			+++++++++++++++++++++++++
 	
 				
-	~ Aggressive mode enables
- ---------------------------------------------------
+	
+----------------------------------------------------
+~ Aggressive Mode
              - OS detection ( -O ), 
 	     - Version detection ( -sV ), 
 	     - Script scanning ( -sC ), and 
@@ -70,7 +66,7 @@ NMAP P R E -- C O M P I L E D  P A C K A G E S
 
 
 
-###     P O R T    S C A N N I N G   M E T H O D S
+        P O R T    S C A N N I N G   M E T H O D S
 	-------------------------------------------------------
 
 	1. Port list:
@@ -102,7 +98,7 @@ NMAP P R E -- C O M P I L E D  P A C K A G E S
 		nmap -p[1-65535] <target>
 
 
-###      D I F E R E N T    M E T H O D S   F O R   R U N N I N G    NSE   S C R I P T S
+         D I F E R E N T    M E T H O D S   F O R   R U N N I N G    NSE   S C R I P T S
 	---------------------------------------------------------------------------------------------
 
 	  1. Run all the scripts in the vuln category:
@@ -122,7 +118,7 @@ NMAP P R E -- C O M P I L E D  P A C K A G E S
 		nmap -sV --script "(http-*) and not(http-slowloris or http-brute)" <target>
 
 
-###       NSE  S C R I P T   C A T E G O R I E S
+          NSE  S C R I P T   C A T E G O R I E S
 	 ----------------------------------------------------
 
 	  1. auth : This category is for scripts related to user authentication.

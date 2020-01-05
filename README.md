@@ -74,10 +74,8 @@ Aggressive Mode
 	-------------------------------------------------------
 
 	1. Port list:
-	   ```console
-		foo@bar:~$ nmap -p80,443 localhost
-	` ``
-		
+	
+	        nmap -p80,443 localhost
 
 	2. Port range:
 

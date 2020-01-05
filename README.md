@@ -139,7 +139,7 @@ NMAP P R E  C O M P I L E D  P A C K A G E S
 
 	  9. fuzzer : This category is for NSE scripts that are focused on fuzzing.
 
-	 10. intrusive : This category is for scripts that might crash something or generate a lot of network noise. Scripts that system 				 administrators may consider intrusive belong to this category.
+	 10. intrusive : This category is for scripts that might crash something or generate a lot of network noise. Scripts that system administrators may consider intrusive belong to this category.
 
 	 11. malware : This category is for scripts related to malware detection.
 

@@ -155,7 +155,7 @@ Aggressive Mode
 
 
 
-```bash
+``console
      foo@foo:$ cat rat
 ```
 

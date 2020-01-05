@@ -155,6 +155,10 @@ Aggressive Mode
 
 
 
+```bash
+     foo@foo:$ cat rat
+```
+
 
 
  

@@ -155,10 +155,6 @@ Aggressive Mode
 
 
 
-``console
-     foo@foo:$ cat rat
-```
-
 
 
  

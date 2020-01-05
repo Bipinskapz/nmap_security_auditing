@@ -1,7 +1,7 @@
 
 # OFFICIAL WEBSITE FOR THE BOOK
 
-	[nmap-cookbook.com]
+	[https://nmap-cookbook.com]
 
 
 # NMAP FROM SOURCE
@@ -51,7 +51,8 @@ NMAP P R E  C O M P I L E D  P A C K A G E S
 				
 	
 ----------------------------------------------------
-~ Aggressive Mode
+Aggressive Mode
+======================
              - OS detection ( -O ), 
 	     - Version detection ( -sV ), 
 	     - Script scanning ( -sC ), and 
@@ -60,7 +61,9 @@ NMAP P R E  C O M P I L E D  P A C K A G E S
 
 		Note:
 
-       			[http://insecure.org/cgi-bin/submit.cgi?]          ** Submissions for correction(to nmap database)
+       			[http://insecure.org/cgi-bin/submit.cgi?]          
+			
+				** Submissions for correction(to nmap database)
 
 
 

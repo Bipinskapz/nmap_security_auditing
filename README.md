@@ -26,6 +26,7 @@
 				- Skip the installation of Nping by using 	--without-nping 
 
 NMAP P R E  C O M P I L E D  P A C K A G E S
+---------------------------------------------------
 
 	[http://nmap.org/download.html]
 
@@ -53,7 +54,7 @@ NMAP P R E  C O M P I L E D  P A C K A G E S
 ----------------------------------------------------
 Aggressive Mode
 ======================
-             - OS detection ( -O ), 
+           - OS detection ( -O ), 
 	     - Version detection ( -sV ), 
 	     - Script scanning ( -sC ), and 
 	     - Traceroute ( --traceroute )

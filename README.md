@@ -75,7 +75,7 @@ Aggressive Mode
 
 	1. Port list:
 	   
-		**nmap -p80,443 localhost**
+		nmap -p80,443 localhost
 
 	2. Port range:
 
